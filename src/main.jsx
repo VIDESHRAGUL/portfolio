@@ -28,19 +28,8 @@ const profile = {
 const stats = [
   ['CEH', 'Certified Ethical Hacker'],
   ['CRTP', 'Certified Red Team Professional'],
-  ['Hacker', 'Hack The Box Rank'],
-  ['Platinum', 'Season 10 Tier']
-];
-
-const htbStats = [
-  ['#838', 'Global Ranking'],
-  ['34.42%', 'Content Ownership'],
-  ['158', 'Platform Points'],
-  ['57', 'Total Flags'],
-  ['#844', 'Seasonal Ranking'],
-  ['655', 'Season Points'],
-  ['71.43%', 'Tier Progress'],
-  ['22/26', 'Season Flags']
+  ['Frey', 'League of Legends'],
+  ['SEA', 'Riot Region']
 ];
 
 const experiences = [
@@ -88,7 +77,28 @@ const knowledge = [
   'Web application security fundamentals',
   'Privilege escalation and misconfiguration analysis',
   'Security reporting and remediation communication',
-  'Hack The Box machine practice'
+  'CTF and lab-based practice'
+];
+
+const interests = [
+  {
+    label: 'Gaming Identity',
+    title: 'Frey #036',
+    body:
+      'League of Legends is part of my personal identity online. I play on the SEA region under Frey #036, and I like the same things in games that pull me toward security work: decision-making, reading patterns, adapting quickly, and improving through repeated practice.'
+  },
+  {
+    label: 'Security Practice',
+    title: 'Labs and CTFs',
+    body:
+      'I use platforms like Hack The Box and TryHackMe to keep my security fundamentals active. The focus is not just points, but building a cleaner workflow for enumeration, exploitation, privilege escalation, and reporting.'
+  },
+  {
+    label: 'Mindset',
+    title: 'Learning by Playing',
+    body:
+      'I enjoy games because they reward patience, timing, and strategy. That same mindset carries into cybersecurity, where every environment has rules, weak points, and paths that only become clear after careful observation.'
+  }
 ];
 
 function App() {
@@ -179,7 +189,7 @@ function App() {
         </button>
         <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <a href="#profile" onClick={closeMenu}>Profile</a>
-          <a href="#hackthebox" onClick={closeMenu}>HTB</a>
+          <a href="#identity" onClick={closeMenu}>Identity</a>
           <a href="#experience" onClick={closeMenu}>Experience</a>
           <a href="#certifications" onClick={closeMenu}>Certifications</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
@@ -257,31 +267,29 @@ function App() {
           </div>
         </section>
 
-        <section id="hackthebox" className="htb-section">
+        <section id="identity" className="htb-section">
           <div className="section-copy reveal">
-            <div className="section-label">Hack The Box</div>
-            <h2>Active platform practice focused on machines, flags, and attack-path discipline.</h2>
+            <div className="section-label">Identity</div>
+            <h2>Frey is the handle I use across games, labs, and security practice.</h2>
             <p>
-              Hack The Box is where I actively sharpen enumeration, exploitation workflow, privilege escalation, and post-exploitation thinking. My current focus is consistent machine progress, clean methodology, and steady seasonal performance.
+              I like gaming, competitive practice, and cybersecurity for the same reason: each one rewards focus, pattern recognition, and consistent improvement. My online identity keeps that side of me connected to the professional work I do in security.
             </p>
           </div>
           <div className="htb-grid">
             <article className="htb-card reveal">
-              <img className="motion-media" src={images.htbProfile} alt="Hack The Box focused artwork" />
+              <img className="motion-media" src={images.htbProfile} alt="Frey identity artwork" />
               <div className="htb-overlay">
-                <span>Avatar</span>
-                <h3>Frey003</h3>
-                <p>Hack The Box rank: Hacker / Current focus: machines, flags, and seasonal progress.</p>
-                <a className="htb-link" href={profile.hackthebox} target="_blank" rel="noreferrer">
-                  View Live HTB Profile
-                </a>
+                <span>League of Legends</span>
+                <h3>Frey #036</h3>
+                <p>SEA region / games, strategy, and steady improvement.</p>
               </div>
             </article>
             <div className="htb-metrics reveal reveal-delay-1">
-              {htbStats.map(([value, label]) => (
-                <div className="htb-metric" key={label}>
-                  <strong>{value}</strong>
-                  <span>{label}</span>
+              {interests.map((item) => (
+                <div className="htb-metric interest-card" key={item.title}>
+                  <span>{item.label}</span>
+                  <strong>{item.title}</strong>
+                  <p>{item.body}</p>
                 </div>
               ))}
             </div>
@@ -366,7 +374,7 @@ function App() {
           <a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
           <a href={profile.github} target="_blank" rel="noreferrer">GitHub</a>
           <a href={profile.tryhackme} target="_blank" rel="noreferrer">TryHackMe</a>
-          <a href={profile.hackthebox} target="_blank" rel="noreferrer">HTB</a>
+          <a href={profile.hackthebox} target="_blank" rel="noreferrer">Hack The Box</a>
         </div>
       </footer>
     </>

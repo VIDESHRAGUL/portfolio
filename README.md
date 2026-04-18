@@ -1,10 +1,10 @@
 # Videsh Ragul R
 
-Associate Security Consultant focused on infrastructure security, Active Directory, network security, penetration testing, and hands-on offensive security practice.
+Associate Security Consultant focused on infrastructure security, Active Directory, network security, penetration testing, and hands-on offensive security practice. Online, I use the handle **Frey**.
 
 ## Profile
 
-I work on practical security assessments with a focus on identifying real attack paths, validating risk, and communicating findings clearly for remediation. My current learning and practice are strongly aligned with Hack The Box machines, seasonal progress, and enterprise security concepts.
+I work on practical security assessments with a focus on identifying real attack paths, validating risk, and communicating findings clearly for remediation. My learning style is hands-on, shaped by labs, CTFs, and games that reward pattern recognition, patience, and strategy.
 
 ## Current Role
 
@@ -26,16 +26,15 @@ Focus areas:
 - Certified Ethical Hacker (CEH)
 - Certified Red Team Professional (CRTP)
 
-## Hack The Box
+## Online Identity
 
-**Profile:** Frey003  
-**Rank:** Hacker  
-**Season 10 Tier:** Platinum  
-**Global Ranking:** #838  
-**Seasonal Ranking:** #844  
-**Flags:** 57  
+**Handle:** Frey  
+**League of Legends:** Frey #036  
+**Region:** SEA  
 
-HTB Profile: [app.hackthebox.com/users/2314112](https://app.hackthebox.com/users/2314112?profile-top-tab=machines&ownership-period=1M&profile-bottom-tab=prolabs)
+I enjoy games because they reward decision-making, timing, and adaptation. That same mindset connects naturally with cybersecurity, where progress comes from observation, method, and continuous practice.
+
+Hack The Box: [app.hackthebox.com/users/2314112](https://app.hackthebox.com/users/2314112?profile-top-tab=machines&ownership-period=1M&profile-bottom-tab=prolabs)
 
 ## Links
 
