@@ -39,7 +39,7 @@ HTB Profile: [app.hackthebox.com/users/2314112](https://app.hackthebox.com/users
 
 ## Links
 
-- Portfolio: GitHub Pages URL will be added after deployment is enabled
+- Portfolio: [videshragul.github.io/portfolio](https://videshragul.github.io/portfolio/)
 - LinkedIn: [linkedin.com/in/videsh-ragul-a17157220](https://linkedin.com/in/videsh-ragul-a17157220)
 - GitHub: [github.com/VIDESHRAGUL](https://github.com/VIDESHRAGUL)
 - TryHackMe: [tryhackme.com/p/Frey003](https://tryhackme.com/p/Frey003)
