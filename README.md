@@ -1,41 +1,46 @@
-# Videsh Ragul R Portfolio
+# Videsh Ragul R
 
-React portfolio for Videsh Ragul R, focused on infrastructure security, penetration testing, CEH, CRTP, Active Directory security, Auriseg experience, and Hack The Box practice.
+Associate Security Consultant focused on infrastructure security, Active Directory, network security, penetration testing, and hands-on offensive security practice.
 
-## Tech Stack
+## Profile
 
-- React
-- Vite
-- CSS
-- Local PNG artwork assets
+I work on practical security assessments with a focus on identifying real attack paths, validating risk, and communicating findings clearly for remediation. My current learning and practice are strongly aligned with Hack The Box machines, seasonal progress, and enterprise security concepts.
 
-## Run Locally
+## Current Role
 
-```bash
-npm install
-npm run dev
-```
+**Associate Security Consultant**  
+Auriseg Consulting Pvt Ltd  
+Jan 2025 - Present
 
-The development server will print a local URL, usually `http://127.0.0.1:5173`.
+Focus areas:
 
-## Build
+- Active Directory security
+- Network security
+- Infrastructure assessment
+- Misconfiguration analysis
+- Security reporting
+- Remediation-focused communication
 
-```bash
-npm run build
-```
+## Certifications
 
-The production build is generated in `dist/`.
+- Certified Ethical Hacker (CEH)
+- Certified Red Team Professional (CRTP)
 
-## GitHub Pages
+## Hack The Box
 
-For GitHub Pages, build the project and deploy the `dist/` folder. If the repository is not hosted at the root domain, set the Vite `base` option before building.
+**Profile:** Frey003  
+**Rank:** Hacker  
+**Season 10 Tier:** Platinum  
+**Global Ranking:** #838  
+**Seasonal Ranking:** #844  
+**Flags:** 57  
 
-## Portfolio Sections
+HTB Profile: [app.hackthebox.com/users/2314112](https://app.hackthebox.com/users/2314112?profile-top-tab=machines&ownership-period=1M&profile-bottom-tab=prolabs)
 
-- Hero profile
-- Professional highlights
-- Professional focus and knowledge areas
-- Hack The Box ranking and season metrics
-- Current Auriseg experience timeline
-- CEH and CRTP certifications
-- Contact links
+## Links
+
+- Portfolio: GitHub Pages URL will be added after deployment is enabled
+- LinkedIn: [linkedin.com/in/videsh-ragul-a17157220](https://linkedin.com/in/videsh-ragul-a17157220)
+- GitHub: [github.com/VIDESHRAGUL](https://github.com/VIDESHRAGUL)
+- TryHackMe: [tryhackme.com/p/Frey003](https://tryhackme.com/p/Frey003)
+- Email: videshragul003@gmail.com
