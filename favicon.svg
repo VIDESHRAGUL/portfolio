@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Videsh Ragul portfolio icon">
-  <rect width="128" height="128" rx="18" fill="#050810"/>
-  <path d="M18 22h92v84H18z" fill="#080d1a" stroke="#00d4ff" stroke-width="4"/>
-  <path d="M31 39h66v12H31zM31 61h46v10H31zM31 82h30v10H31z" fill="#00d4ff"/>
-  <path d="M88 61l15 15-15 15M73 91l15-30" fill="none" stroke="#ffd36a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M18 22l14 14M110 22L96 36M18 106l14-14M110 106L96 92" stroke="#ff3b5c" stroke-width="4" stroke-linecap="round"/>
-</svg>
